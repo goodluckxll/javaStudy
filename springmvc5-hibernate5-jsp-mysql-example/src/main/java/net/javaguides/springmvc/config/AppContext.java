@@ -40,6 +40,7 @@ public class AppContext {
 		dataSource.setUsername(environment.getRequiredProperty("jdbc.username"));
 		dataSource.setPassword(environment.getRequiredProperty("jdbc.password"));
 		return dataSource;
+
 	}
 
 	private Properties hibernateProperties() {
