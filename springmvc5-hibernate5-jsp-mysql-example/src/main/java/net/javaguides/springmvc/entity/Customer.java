@@ -25,6 +25,20 @@ public class Customer {
 	@Column(name="email")
 	private String email;
 
+
+	public String getBz() {
+		return bz;
+	}
+
+	public void setBz(String bz) {
+		this.bz = bz;
+	}
+
+	@Column(name="bz")
+	private String bz;
+
+
+
 	public Customer() {
 	}
 

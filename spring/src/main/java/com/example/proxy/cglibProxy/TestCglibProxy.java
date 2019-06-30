@@ -3,8 +3,11 @@ package com.example.proxy.cglibProxy;
 import org.junit.Test;
 import org.springframework.cglib.proxy.Enhancer;
 
+import javax.annotation.PostConstruct;
+
 public class TestCglibProxy {
     @Test
+    @PostConstruct
     public void say(){
         //字节码增强器
         Enhancer enchancer = new Enhancer();
@@ -15,5 +18,6 @@ public class TestCglibProxy {
         //创建代理实例
         Person proxy = (Person)enchancer.create();
         proxy.say();
+
     }
 }

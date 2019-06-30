@@ -30,6 +30,9 @@
 				<tr>
 					<td><b>Email </b>: ${user.email}</td>
 				</tr>
+				<tr>
+					<td><b>Bz </b>: ${user.bz}</td>
+				</tr>
 			</table>
 		</div>
 	</div>

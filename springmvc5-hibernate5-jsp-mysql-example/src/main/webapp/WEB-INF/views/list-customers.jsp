@@ -31,6 +31,7 @@
 							<th>First Name</th>
 							<th>Last Name</th>
 							<th>Email</th>
+							<th>bz</th>
 							<th>Action</th>
 						</tr>
 
@@ -51,6 +52,7 @@
 								<td>${tempCustomer.firstName}</td>
 								<td>${tempCustomer.lastName}</td>
 								<td>${tempCustomer.email}</td>
+								<td>${tempCustomer.bz}</td>
 
 								<td>
 									<!-- display the update link --> <a href="${updateLink}">Update</a>
